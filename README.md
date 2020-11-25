@@ -1,1 +1,2 @@
 # LeetCode
+学习并记录LeetCode刷题记录，备份一下相关思路和代码
