@@ -3,6 +3,7 @@ package _0001两数之和;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 public class _0001Solution {
     /**
@@ -40,8 +41,15 @@ public class _0001Solution {
 
 
     public static void main(String[] args) {
-        int[] nums = new int[]{2, 7, 11, 15};
-        int target = 9;
+        Scanner sc = new Scanner(System.in);
+        int len = sc.nextInt();
+        int[] nums = new int[len];
+        for (int i = 0; i < len; i++) {
+            nums[i] = sc.nextInt();
+        }
+        int target = sc.nextInt();
+        System.out.println(Arrays.toString(nums));
+        System.out.println(target);
 
         int[] result = twoSum_2(nums, target);
         System.out.println(Arrays.toString(result));
