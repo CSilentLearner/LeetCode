@@ -11,7 +11,7 @@ import java.util.*;
  * NB.一般把回溯问题抽象成一个n叉树问题，那么终止条件就是到达叶子节点的情况
  *
  * 3.单层递归逻辑
- * NB.一般就是在for
+ * NB.一般就是在for里面做一些操作
  * */
 public class _0077Solution {
 
