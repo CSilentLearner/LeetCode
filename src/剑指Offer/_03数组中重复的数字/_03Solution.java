@@ -37,5 +37,6 @@ public class _03Solution {
         //调用方法
         int result = findRepeatNumber(nums);
         System.out.println(result);
+
     }
 }
