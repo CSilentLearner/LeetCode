@@ -31,7 +31,8 @@ public class _0077Solution {
 //            System.out.println(Arrays.toString(result.toArray()));
             return;
         }
-        for (int i = startIndex; i <= n; i++) {
+//        for (int i = startIndex; i <= n; i++) {
+        for (int i = startIndex; i <= n - (k - path.size()) + 1; i++) { //剪枝操作，确定搜索上届
             path.add(i); // 处理节点
 //            System.out.println("递归之前 => " + path);
             backtracking(n, k, i+1); // 递归
